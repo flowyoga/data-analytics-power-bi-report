@@ -68,7 +68,7 @@
 * Table 
   - Top 20 Customers: displays the top 20 customers by revenue. Data bars are enabled in Revenue column. 
 
-    Please note that as there are 6 users that do exist in Users table but not in Customers table. When the User ID column is not used in aggregation, these 6 are grouped into one and appear in the table, which is incorrect.  
+  Please note that as there are 6 users that do exist in Users table but not in Customers table. When the User ID column is not used in aggregation, these 6 are grouped into one and appear in the table, which is incorrect.  
 
 * Additional Card  
   - Top Customer, Top Customer's Revenue, Top Customer's Total No of Orders:  displays the top customer's name, revenue and total number of orders.  
