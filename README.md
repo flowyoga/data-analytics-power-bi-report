@@ -63,7 +63,7 @@ Please note that there are 6 users that appear in Users table, but not in Custom
  - Total Customers by Category:  created using Products[Category] to filter the Total Customers measure.
 
 * Line Chart 
- -  Total Customers by Month: displays Total Customers vs Dates. The Drill down feature is enabled up to Month level. There is also a trend line that forecasts the next 10 points/periods with a 95% confidence interval.
+ -  Total Customers by Month: displays Total Customers vs Dates. The Drill down feature is enabled up to Month level. There is also a trend line that forecasts the next 10 points with a 95% confidence interval.
 
 * Table 
  - Top 20 Customers: displays the top 20 customers by revenue. Data bars are enabled in Revenue column. 
