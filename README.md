@@ -48,14 +48,14 @@
 
 ### Reports 
 
-#### Customer Details Page 
+#### Customer Detail Page 
 
 * Card Visuals 
-  - Unique Customers: displays Total Customers measure that was created earlier. 
+  - Unique Customers: displays Total Customers.
   - Revenue Per Customer: displays Total Revenue measure divided by Total Customers.
 
 * Donut Chart
-  - Total Customer by Country: created based on Users[Country] against Total Customer measure.
+  - Total Customer by Country: created based on Users[Country] vs. Total Customer measure.
 
     Please note that there are 6 users that appear in Users table, but not in Customers table. These users are in Blank Category. 
 
@@ -63,7 +63,7 @@
   - Total Customers by Category:  created using Products[Category] to filter the Total Customers measure.
 
 * Line Chart 
-  -  Total Customers by Month: displays Total Customers vs Dates. The Drill down feature is enabled up to Month level. There is also a trend line that forecasts the next 10 points with a 95% confidence interval.
+  -  Total Customers: displays Total Customers vs Dates. The drill-down feature is enabled up to the month level. There is also a trend line that forecasts the next 10 points with a 95% confidence interval.
 
 * Table 
   - Top 20 Customers: displays the top 20 customers by revenue. Data bars are enabled in Revenue column. 
@@ -72,3 +72,29 @@
 
 * Additional Card  
   - Top Customer, Top Customer's Revenue, Top Customer's Total No of Orders:  displays the top customer's name, revenue and total number of orders.  
+
+
+#### Executive Summary Page 
+
+* Card Visuals 
+  - Total Revenue: displays Total Revenue.
+  - Total Orders: displays Total Orders.
+  - Total Profit: displays Total Profit.
+
+* Line Chart 
+  -  Total Revenue: displays Total Revenue vs Dates. The drill-down feature is enabled up to the month level.
+
+* Donut Charts
+  - Total Revenue by Country: created based on Store[Country] vs. total revenue. 
+  - Total Revenue by Store Type: created based on Store[Store Type] vs. total revenue.
+
+* Bar/Column Chart 
+  - Total Orders by Category:  created based on Products[Category] vs. total orders.
+
+* KPI Visuals
+  - Quarterly Profit: displays total profit against target profit (5% growth from the previous quarter's profit).
+  - Quarterly Orders: displays total orders against target orders (5%  growth from the previous quarter's orders)
+  - Quarterly Revenue: displays total revenue against target revenue (5% growth from the previous quarter's revenue)
+
+
+
