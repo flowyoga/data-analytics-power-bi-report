@@ -79,24 +79,24 @@
   - Quarterly Revenue: displays total revenue against target revenue (5% growth from the previous quarter's revenue)
 #### Product Details Page 
 * Gauge Visuals
-  - Quarterly Orders vs Target: Selected Quarter's Total Orders vs Target Orders (10% higher than the previous quarter's Orders )
-  - Quarterly Profit vs Target: Selected Quarter's Total Profit vs Target Profit (10% higher than the previous quarter's profit)
-  - Quarterly Revenue vs Target: Selected Quarter's Total Revenue vs Target Revenue (10% higher than the previous quarter's revenue)
+  - Quarterly Orders vs Target: Selected quarter's total orders vs. target orders (10% higher than the previous quarter's orders).
+  - Quarterly Profit vs Target: Selected quarter's total profit vs. target profit (10% higher than the previous quarter's profit).
+  - Quarterly Revenue vs Target: Selected quarter's total revenue vs. target revenue (10% higher than the previous quarter's revenue).
 
-When Target value is met, Gauge colour is black. If not met,  red. 
+  When Target value is met, the colour is black. If not, red.
 * Card Visuals
-  - Category Selection: displays selected category/categories in Category Slicer 
-  - Country Selection: displays selected country/countries in Country Slicer
+  - Category Selection: displays selected category/categories from the category slicer.
+  - Country Selection: displays selected country/countries from the country slicer.
 * Area Chart 
-  - Total Revenue by Category: displays selected Quarter(s) vs Total Revenue by selected category/categories
+  - Total Revenue by Category: displays selected quarter(s) vs. total revenue by the selected category/categories
 (need to double check)
 * Table 
-  - Top 10 Products: displays the top 10 products by Revenue. Data bars are enabled in Revenue Column. This talbe also shows total customers, total orders, and profit per order. 
+  - Top 10 Products: displays the top 10 products by Revenue. Data bars are enabled in the revenue Column. This table also shows total customers, total orders, and profit per order. 
 * Scatter Graph 
-  - Quantity Sold vs Profit per Item: displays the sum of profit per item vs Total Quantity sold per category/categories selected. 
+  - Quantity Sold vs Profit per Item: displays the sum of profit per item vs. total quantity sold per selected category/categories. 
 * Slicers Toolbar
-    - Category Slicer and Country Slicer are embedded within a navigation bar.  
+    - Category Slicer and Country Slicer: embedded within a navigation bar.  
 
-    
+
 
 
