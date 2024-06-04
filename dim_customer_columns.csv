@@ -1,0 +1,11 @@
+column_name
+address
+company
+country
+country_code
+date_of_birth
+email
+first_name
+join_date
+last_name
+user_uuid

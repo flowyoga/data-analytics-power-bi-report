@@ -123,3 +123,19 @@
     - Quantity Sold vs Profit Per Item vs Total Revenue by Category and Top 10 Products. 
 #### 4 buttons on Nagivation bar 
   - Four page navigation buttons added to Executive Summary, Customer Detail, Product detail, and Stores Map pages. 
+
+### Create Metrics for Users Outside the Company Using SQL 
+#### Table and Column Names check
+  - table_names.csv : contains all tables (16 tables) returned by the following sql 
+      ```sql
+      select table_name from information_schema.tables
+      where table_type='BASE TABLE' and table_Schema='public'
+      order by 1
+      ```
+  - As some of tables do not seem useful information, column names in country_region, dim_customer, dim_Date, dim_product, dim_store, and orders tables are being checked with using the following sql: 
+    ```sql
+    select column_name from information_schema.columns 
+    where table_name='{table_name}'
+    order by 1;
+    ```
+#### SQLs and Answers in Tasks3 are captured in each file t3_question{number}.csv and t3_question{number}.sql 

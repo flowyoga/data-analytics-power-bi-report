@@ -1,0 +1,11 @@
+column_name
+card_number
+order_date
+order_date_uuid
+product_code
+product_quantity
+ship_date_uuid
+shipping_date
+store_code
+total_orders
+user_id
