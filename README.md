@@ -89,7 +89,6 @@
   - Country Selection: displays selected country/countries from the country slicer.
 * Area Chart 
   - Total Revenue by Category: displays selected quarter(s) vs. total revenue by the selected category/categories
-(need to double check)
 * Table 
   - Top 10 Products: displays the top 10 products by Revenue. Data bars are enabled in the revenue Column. This table also shows total customers, total orders, and profit per order. 
 * Scatter Graph 
