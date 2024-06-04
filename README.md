@@ -96,7 +96,31 @@
   - Quantity Sold vs Profit per Item: displays the sum of profit per item vs. total quantity sold per selected category/categories. 
 * Slicers Toolbar
     - Category Slicer and Country Slicer: embedded within a navigation bar.  
-
-
-
-
+#### Stores Map Page
+* Map Visual 
+  - Profit YTD by Location: created using Stores[Geography] and the Profit YTD measure.
+* Slicer 
+  - Country: added based on Stores[Country].
+#### Stores Drillthrough Page 
+* Table 
+  - Top 5 Products: displays the top 5 products' description, profit YTD, total orders, and total revenue. 
+* Column Chart  
+  - Total Orders By Category: displays Products[Category] vs. total orders. 
+* Card Visual 
+  - Store Location Selection: displays the selected location.
+* Gauge Visuals 
+  - Profit YTD vs Goal: displays Profit YTD vs. Goal (20% higher than previous year's YTD).
+  - Revenue YTD vs Goal: displays Revenue YTD vs Goal (20% higher than previous year's YTD).
+#### Profit Visual 
+  -  Profit YTD vs Goal: The visual from Stores Drillthrough Page was copied to this page and linked to Stores Map visual so that the gauge on this page updates when a location is selected on the map. 
+#### Cross Filtering 
+* The following cross filterings have been disabled: 
+  - Executive Summary Page
+    - Total Orders By Category vs Card Visuals, Total Revenue, and KPIs. 
+  - Customer Detail Page 
+    - Top 20 Customers table vs Unique Customers, Revenue Per Customer, Total Customers by Country, Total Customers by Category, and Total Customers. 
+    - Total customers by Country vs Total Customers 
+  - Product Detail Page 
+    - Quantity Sold vs Profit Per Item vs Total Revenue by Category and Top 10 Products. 
+#### 4 buttons on Nagivation bar 
+  - Four page navigation buttons added to Executive Summary, Customer Detail, Product detail, and Stores Map pages. 
